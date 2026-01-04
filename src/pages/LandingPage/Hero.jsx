@@ -13,8 +13,8 @@ const Hero = () => {
   return (
     <section className='w-full bg-white satoshi'>
         <Container className=' px-6 flex flex-col justify-center items-center min-h-screen pt-[79px] md:pt-[154px]'>
-            
-                {/* Hero Headings */}
+            <div className='flex flex-col justify-center items-center'>
+                                {/* Hero Headings */}
             <h2 className='w-full max-w-[928px] text-center font-bold text-[32px] md:text-5xl leading-10 md:leading-[54px] '>
                 Simplify your international Transaction with 
                 <span className='text-[#6364FF]'> one platform</span>
@@ -34,6 +34,8 @@ const Hero = () => {
                 </Button>
             </div>
 
+            </div>
+
               {/* Hero Images */}
               <div className='mt-[90px] w-full  md:mt-[148px] mx-auto flex gap-6'>
                 <img src={Phone5} alt="Phone" className=' block md:hidden object-cover ' />
@@ -42,20 +44,22 @@ const Hero = () => {
         </Container>
 
         {/* Sponsors */}
-        <div className=' flex flex-col md:flex-row justify-center gap-[72px] py-[54px] items-center bg-[#E5DBFB] w-full mx-auto'>
-                <div>
-                    <p className='font-medium text-lg w-full max-w-[339px] text-[#3A3A3A] '>
+        <div className=' flex flex-col md:flex-row overflow-hidden justify-center gap-4 md:gap-[72px] py-6 md:py-[54px] items-center bg-[#E5DBFB] w-full mx-auto'>
+                <div className=' w-full'>
+                    <p className='font-medium ml-6 md:ml-30 text-xs md:text-lg w-full max-w-[236px] md:max-w-[339px] text-[#3A3A3A] '>
                     We're have been recognized by Leading Finance Publications and Organizations.
                     </p>
                 </div>
 
-                <div className='flex items-center overflow-x-auto gap-[90px]'>
+                <marquee behavior="linear" speed={80} gradient={false} direction="left">
+                <div className='flex items-center  gap-8 md:gap-[90px]'>
                     <CompanyLogo1 />
                     <CompanyLogo2 />
                     <CompanyLogo3 />
                     <CompanyLogo4 />
                     <CompanyLogo5 />
                 </div>
+                </marquee>
                 
             </div>
 

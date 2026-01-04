@@ -6,9 +6,15 @@ import Hero from './Hero'
 const LandingPage = () => {
   return (
     <>
+    <header>
     <Navbar />
+    </header>
+    <main>
     <Hero />
-    <Footer />
+    </main>
+    <footer>
+      <Footer />
+    </footer>
     </>
   )
 }
