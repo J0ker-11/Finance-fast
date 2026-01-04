@@ -18,9 +18,9 @@ const Navbar = () => {
 
 
   return (
-    <section className='w-full bg-white py-8 md:py-12   satoshi sticky top-0 left-0 z-30'>
+    <section className='w-full bg-white pt-12   satoshi sticky top-0 left-0 z-30'>
         
-        <Container className='flex justify-between px-3 items-center'>
+        <Container className='flex justify-between px-6 items-center'>
             <div className='flex items-center gap-2'>
                 <Logo />
                <h2 className='font-medium text-base md:text-2xl'> FinanceFast</h2>

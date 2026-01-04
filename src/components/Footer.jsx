@@ -37,9 +37,9 @@ const Footer = () => {
 
   return (
     <section className="w-full text-black satoshi">
-      <Container className="px-3">
+      <Container className="px-6">
         <div className="flex justify-between">
-        <div className="grid grid-cols-2 lg:grid-cols-3  gap-10 last:gap-8 md:gap-[72px] ">
+        <div className="grid grid-cols-2 lg:grid-cols-3  gap-8 last:gap-8 md:gap-[72px] ">
         {footerSection.map((item) => (
           <div key={item.id}>
 
