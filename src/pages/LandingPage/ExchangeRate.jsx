@@ -1,11 +1,16 @@
 import React from "react";
 import Container from "../../components/Container";
 import Group8 from "../../assets/images/Group 8.png";
+import TurkishLira from "../../assets/icons/TurkishLira";
+import SaRand from "../../assets/icons/SaRand";
+import UsDollar from "../../assets/icons/UsDollar";
+import ChinaYuan from "../../assets/icons/ChinaYuan";
+import SoutKoreaWan from "../../assets/icons/SoutKoreaWan";
 
 const ExchangeRate = () => {
   return (
     <section className="w-full bg-white satoshi py-20 md:py-[124px]">
-      <Container className="flex flex-col justify-center items-center px-6">
+      <Container className="flex flex-col justify-center items-center px-6 md:px-0">
         <div className="text-center mb-22">
           <h1 className="uppercase text-[#6364FF] font-bold text-[10px] md:text-sm mb-3 md:mb-4">
             real-time exchange rate
@@ -27,8 +32,8 @@ const ExchangeRate = () => {
           </p>
         </div>
 
-        <div className="w-full flex flex-col md:flex-row gap-6 md:gap-[117px]">
-          <div className=" w-full  max-w-[618px] max-h-[493px] bg-[#F1DDFF] px-8 pb-6 pt-[53px] rounded-3xl">
+        <div className="w-full flex flex-col justify-center md:flex-row gap-6 md:gap-[117px]">
+          <div className=" w-full  max-w-[618px]  bg-[#F1DDFF] px-8 pb-6 pt-[53px] rounded-3xl">
             <div className="mx-auto">
               <img
                 src={Group8}
@@ -54,7 +59,56 @@ const ExchangeRate = () => {
             <span className="font-bold text-sm md:text-lg text-[#3A3A3A]">VS</span>
             <span className="md:h-full w-full h-1 md:w-1 bg-gray-200 rounded-full"></span>
           </div>
+
+          
+        <div>
+            <div className="flex gap-6  mb-6 md:mb-[60px]">
+                <TurkishLira />
+            <div>
+                <h2 className="font-bold text-lg md:text-xl mb-2">Turkish Lira</h2>
+                <p className="text-sm md:text-base font-normal">₦‎ 340 to ₺1 + ₦2,500 hidden conversion fee </p>
+                </div>
+            </div>
+            <div className="flex gap-6 mb-6 md:mb-[60px]">
+            <SaRand />
+            <div>
+                <h2 className="font-bold text-lg md:text-xl mb-2">Turkish Lira</h2>
+                <p className="text-sm md:text-base font-normal">₦‎ 470 to R1 + ₦3,100 hidden conversion fee </p>
+                </div>
+            </div>
+            <div className="flex gap-6 mb-6 md:mb-[60px]">
+            <UsDollar />
+            <div>
+                <h2 className="font-bold text-lg md:text-xl mb-2">Turkish Lira</h2>
+                <p className="text-sm md:text-base font-normal">₦‎ 770 to $1 + ₦‎ 3,000 hidden conversion fee  </p>
+                </div>
+            </div>
+            <div className="flex gap-6 mb-6 md:mb-[60px]">
+            <SoutKoreaWan />
+            <div>
+                <h2 className="font-bold text-lg md:text-xl mb-2">Turkish Lira</h2>
+                <p className="text-sm md:text-base font-normal">₦‎ 470 to ₩1 + ₦‎ 5,000 hidden conversion fee  </p>
+                </div>
+            </div>
+            <div className="flex gap-6">
+            <ChinaYuan />
+            <div>
+                <h2 className="font-bold text-lg md:text-xl mb-2">Turkish Lira</h2>
+                <p className="text-sm md:text-base font-normal">₦‎ 470 to  ¥1 + ₦‎ 3,200 hidden conversion fee  </p>
+                </div>
+            </div>
         </div>
+
+
+
+        </div>
+
+
+
+        
+                
+                
+                
       </Container>
     </section>
   );
