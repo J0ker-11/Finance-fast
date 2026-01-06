@@ -44,20 +44,20 @@ const Hero = () => {
         </Container>
 
         {/* Sponsors */}
-        <div className=' flex flex-col md:flex-row overflow-hidden justify-center gap-4 md:gap-[72px] py-6 md:py-[54px] items-center bg-[#E5DBFB] w-full mx-auto'>
-                <div className=' w-full'>
-                    <p className='font-medium ml-6 md:ml-30 text-xs md:text-lg w-full max-w-[236px] md:max-w-[339px] text-[#3A3A3A] '>
+        <div className=' flex flex-col md:flex-row overflow-hidden justify-center items-center gap-4 md:gap-[72px] py-6 md:py-[54px] bg-[#E5DBFB] w-full mx-auto'>
+                <div className=''>
+                    <p className='font-medium ml-6 text-xs md:text-lg w-full max-w-[236px] md:max-w-[500px] text-[#3A3A3A] '>
                     We're have been recognized by Leading Finance Publications and Organizations.
                     </p>
                 </div>
 
                 <marquee behavior="linear" speed={80} gradient={false} direction="left">
-                <div className='flex items-center  gap-8 md:gap-[90px]'>
-                    <CompanyLogo1 />
-                    <CompanyLogo2 />
-                    <CompanyLogo3 />
-                    <CompanyLogo4 />
-                    <CompanyLogo5 />
+                <div className='flex items-center gap-8 md:gap-[90px]'>
+                    <div className='shrink-0'><CompanyLogo1 /></div>
+                    <div className='shrink-0'><CompanyLogo2 /></div>
+                    <div className='shrink-0'><CompanyLogo3 /></div>
+                    <div className='shrink-0'><CompanyLogo4 /></div>
+                    <div className='shrink-0'><CompanyLogo5 /></div>
                 </div>
                 </marquee>
                 

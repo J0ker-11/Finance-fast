@@ -9,6 +9,10 @@ import { X } from 'lucide-react'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
+    const handleToggle = () => {
+        setIsOpen(!isOpen)
+    }
+
 
     const navItems = [
         {title: "Blog", href: "#"},
@@ -18,7 +22,7 @@ const Navbar = () => {
 
 
   return (
-    <section className='w-full bg-white pt-12   satoshi sticky top-0 left-0 z-30'>
+    <section className='w-full bg-white pt-12 satoshi sticky top-0 left-0 z-30'>
         
         <Container className='flex justify-between px-6 items-center'>
             <div className='flex items-center gap-2'>
@@ -42,7 +46,7 @@ const Navbar = () => {
 
              {/*  Mobile Menu */}
              <Button type='button'
-               onClick={() => {setIsOpen((prev) => !prev)}} className='lg:hidden transition-all duration-700 ease-in-out cursor-pointer'>
+               onClick={handleToggle} className='lg:hidden transition-all duration-700 ease-in-out cursor-pointer'>
             {
             isOpen ? <X /> : <Menu />}            
             </Button>            
