@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import Hero from './Hero'
 import CrossBorder from './CrossBorder'
 import ExchangeRate from './ExchangeRate'
+import SeamlessSection from './SeamlessSection'
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
     <Hero />
     <CrossBorder />
     <ExchangeRate />
+    <SeamlessSection />
     </main>
     <footer>
       <Footer />
