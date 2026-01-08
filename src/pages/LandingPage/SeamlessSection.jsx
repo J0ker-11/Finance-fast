@@ -12,25 +12,25 @@ const SeamlessSection = () => {
                 <p className=' text-sm md:text-base font-normal w-full max-w-[622px]  '>Simplify Your Money Management with Receive & Request Payments</p>
             </div>
 
-            <div className='flex items-center gap-[33px] '>
+            <div className='flex items-center gap-[33px] justify-center mt-22 '>
               <div>
-
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore consectetur, provident hic unde commodi dignissimos dolore debitis beatae et ea?</p>
               </div>
 
-              <div>
-                <span></span>
-                <span>VS</span>
-                <span></span>
-              </div>
+               <div className="flex  md:flex-col gap-[10px] items-center">
+            <span className="md:h-full w-full h-1 md:w-1  bg-gray-200 rounded-full"></span>
+            <span className="font-bold text-sm md:text-lg text-[#3A3A3A]">VS</span>
+            <span className="md:h-full w-full h-1 md:w-1 bg-gray-200 rounded-full"></span>
+          </div>
 
-              <div className=' w-full max-w-[618px] py-12 rounded-lg bg-[#F6DDFD]  '>
+              <div className=' w-full max-w-[618px] pt-12 pb-8 rounded-lg bg-[#F6DDFD]  '>
                 <div>
-                <img src={Phone} alt="Iphone" className='w-[314px] object-cover  mx-auto' />
+                <img src={Phone} alt="Iphone" className='w-[314px] object-cover flex justify-center overflow-hidden items-center  mx-auto' />
                 </div>
 
                 <div className='px-8 mt-10'>
-                  <h2>Effortless Payments</h2>
-                  <p>Simplify Your Money Management with Receive & Request Payments on FinanceFast.</p>
+                  <h2 className='font-bold text-xl md:text-[32px]'>Effortless Payments</h2>
+                  <p className='w-full max-w-[459px] mt-2 text-sm text-[#3A3A3A] md:text-base'>Simplify Your Money Management with Receive & Request Payments on FinanceFast.</p>
                 </div>
 
               </div>
