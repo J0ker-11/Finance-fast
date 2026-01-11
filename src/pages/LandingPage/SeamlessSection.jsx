@@ -7,67 +7,61 @@ const SeamlessSection = () => {
     {
       id: 1,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Expensive high fees and unfavorable exchange rates",
       style: ""
     },
     {
       id: 2,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Transfer delay and inconvenience",
       style: ""
     },
     {
       id: 3,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Fraud and loss of funds",
       style: ""
     },
     {
       id: 4,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Traditional in-person transactions",
       style: ""
     },
     {
       id: 5,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Limited payments method",
       style: ""
     },
     {
       id: 6,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Lack of transparency",
       style: ""
     },
     {
       id: 7,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Complex verification processes",
       style: ""
     },
     {
       id: 8,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Long payments wait time",
       style: ""
     },
     {
       id: 9,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Hidden costs",
       style: ""
     },
     {
       id: 10,
       text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
-      style: ""
-    },
-    {
-      id: 11,
-      text: "X",
-      title: "Expense high fees and unfavorable exchange rates",
+      title: "Currency exchange rate",
       style: ""
     },
   ]
@@ -89,13 +83,12 @@ const SeamlessSection = () => {
           </p>
         </div>
 
-        <div className="flex  flex-col md:flex-row items-center gap-[33px] justify-center mt-22 ">
+        <div className="flex  flex-col md:flex-row items-stretch justify-between gap-[33px] mt-22 ">
           
           <div className="">
             {money.map((items) => (
-              <div key={items.id}>
-                <p>{items.text}</p>
-                <p>{items.title}</p>
+              <div key={items.id} className="flex items-center mb-5 ">
+                 <p className={`font-normal text-sm md:text-base  ${items.id === 5 ? "border border-gray-500 rounded-full px-6 py-2 text-gray-400 bg-gray-100" : "text-gray-400"}`}><span className={`${items.id === 5 ? "text-red-500 text-sm md:text-base" : "text-gray-100"}`}>{items.text}</span>  {items.title}</p>
               </div>
             ))}
             
