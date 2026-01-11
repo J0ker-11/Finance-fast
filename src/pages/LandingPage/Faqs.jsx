@@ -32,7 +32,7 @@ const Faqs = () => {
 
   return (
     <section>
-        <Container className='flex justify-center items-center text-center  mt-[112px] mb-[124px] '>
+        <Container className='flex px-6 justify-center items-center text-center  mt-[112px] mb-[124px] '>
             <div>
                 <h2>FAQS</h2>
                 <div>
@@ -40,7 +40,7 @@ const Faqs = () => {
                     <p>Get the answers to your questions about FastFinance.</p>
                 </div>
 
-                <div className=" min-w-[719px]">
+                <div className=" max-w-[719px] md:min-w-[719px]">
       {faqs.map((item, index) => (
         <div key={index} className="border-b py-4">
           <button

@@ -7,6 +7,7 @@ import ExchangeRate from './ExchangeRate'
 import SeamlessSection from './SeamlessSection'
 import Testimonials from './Testimonials'
 import Faqs from './Faqs'
+import Payments from './Payments'
 
 const LandingPage = () => {
   return (
@@ -21,6 +22,7 @@ const LandingPage = () => {
     <SeamlessSection />
     <Testimonials />
     <Faqs />
+    <Payments />
     </main>
     <footer>
       <Footer />
