@@ -20,9 +20,10 @@ const LandingPage = () => {
     <CrossBorder />
     <ExchangeRate />
     <SeamlessSection />
+    <Payments />
     <Testimonials />
     <Faqs />
-    <Payments />
+    
     </main>
     <footer>
       <Footer />
