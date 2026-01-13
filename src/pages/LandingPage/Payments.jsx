@@ -7,8 +7,26 @@ import frame3 from '../../assets/images/Frame 14319.png'
 import frame4 from '../../assets/images/Frame 14320.png'
 
 const Payments = () => {
+    // const name = "Leo Arome"
+    // const initials = name.trim(" ").split(" ").map(word => word[0]).join(" ")
+
+
+
   return (
     <section>
+
+{/* <div className="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center font-semibold">
+  {"Hassan Tijani"
+    .trim(" ")
+    .split(" ")
+    .map(firstName => firstName[0])
+    .join("")}
+    <p>{initials}</p>
+</div> */}
+
+
+
+
         <Container className='  px-6 text-white '>
             <div className='bg-[#5A5DF7] relative   min-h-[432px] flex flex-col md:flex-row justify-center items-center rounded-2xl '>
                 <img src={bg} alt="bg" className='absolute top-0 right-0 h-[342px] md:h-full  ' />

@@ -8,6 +8,7 @@ import SeamlessSection from './SeamlessSection'
 import Testimonials from './Testimonials'
 import Faqs from './Faqs'
 import Payments from './Payments'
+import Solution from './Solution'
 
 const LandingPage = () => {
   return (
@@ -23,6 +24,7 @@ const LandingPage = () => {
     <Payments />
     <Testimonials />
     <Faqs />
+    <Solution />
     
     </main>
     <footer>
