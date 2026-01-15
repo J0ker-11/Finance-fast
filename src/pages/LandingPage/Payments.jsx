@@ -29,7 +29,7 @@ const Payments = () => {
 
         <Container className='  px-6 text-white '>
             <div className='bg-[#5A5DF7] relative   min-h-[432px] flex flex-col md:flex-row justify-center items-center rounded-2xl '>
-                <img src={bg} alt="bg" className='absolute top-0 right-0 h-[342px] md:h-full  ' />
+                <img src={bg} alt="bg" className='absolute top-0 right-0 min-h-[342px] md:h-full  ' />
                 <div className='flex flex-col'>
                 <h2 className=' font-bold md:text-[40px] w-full max-w-[729px] '>Make International Payments a Breeze with FinanceFast</h2>
                 <div className='flex flex-col md:flex-row gap-4 md:gap-[54px] mt-6'>
