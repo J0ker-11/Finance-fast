@@ -19,7 +19,7 @@ const Solution = () => {
                         <AppleStore /> 
                     </div>
                 </div>
-                <div className='  flex justify-center items-center'>
+                <div className='  flex justify-center items-center'>    
                     <Badge />
                 
                     <img src={Phone} alt="phone" className='w-[238px] md:w-[354px] mt-[56px] ' />
