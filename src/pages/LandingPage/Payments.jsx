@@ -20,7 +20,7 @@ const Payments = () => {
     .trim(" ")
     .split(" ")
     .map(firstName => firstName[0])
-    .join("")}
+    .join(" ")}
     <p>{initials}</p>
 </div>
 
