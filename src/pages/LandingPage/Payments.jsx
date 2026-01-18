@@ -16,7 +16,7 @@ const Payments = () => {
     <section>
 
 <div className="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center font-semibold">
-  {"Hassan Tijani"
+  {"Idris Tahir"
     .trim(" ")
     .split(" ")
     .map(firstName => firstName[0])
