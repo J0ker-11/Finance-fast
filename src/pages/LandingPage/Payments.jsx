@@ -8,7 +8,11 @@ import frame4 from '../../assets/images/Frame 14320.png'
 
 const Payments = () => {
     const name = "Leo Arome"
+    const name1 = "Hassan Tijani"
+    const name2 = "Idris Tahir"
     const initials = name.trim(" ").split(" ").map(word => word[0]).join(" ")
+    const initials1 = name.trim(" ").split(" ").map(word => word[0]).join(" ")
+    const initials2 = name.trim(" ").split(" ").map(word => word[0]).join(" ")
 
 
 
@@ -16,12 +20,14 @@ const Payments = () => {
     <section>
 
 <div className="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center font-semibold">
-  {"Idris Tahir"
+  {" "
     .trim(" ")
     .split(" ")
     .map(firstName => firstName[0])
     .join(" ")}
     <p>{initials}</p>
+    <p>{initials1}</p>
+    <p>{initials2}</p>
 </div>
 
 
