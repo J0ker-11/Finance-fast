@@ -10,6 +10,7 @@ const Payments = () => {
     const name = "Leo Arome"
     const name1 = "Hassan Tijani"
     const name2 = "Idris Tahir"
+    const name3 = "Jacob Sunday"
     const initials = name.trim(" ").split(" ").map(word => word[0]).join(" ")
     const initials1 = name.trim(" ").split(" ").map(word => word[0]).join(" ")
     const initials2 = name.trim(" ").split(" ").map(word => word[0]).join(" ")
